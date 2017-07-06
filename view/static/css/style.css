@@ -1,0 +1,138 @@
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: url(MaterialIcons-Regular.eot); /* For IE6-8 */
+  src: local('Material Icons'),
+       local('MaterialIcons-Regular'),
+       url("../fonts/material-icons/MaterialIcons-Regular.woff2") format('woff2'),
+       url("../fonts/material-icons/MaterialIcons-Regular.woff") format('woff'),
+       url("../fonts/material-icons/MaterialIcons-Regular.ttf") format('truetype');
+}
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;  /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: 'liga';
+}
+
+.parallax-container {
+  height: "700px";
+}
+
+.brand-logo {
+  color: #000 !important;
+}
+
+.itens-menu {
+  color: #4E516E !important;
+}
+
+nav {
+  position: fixed;
+  top: 0px;
+  background: rgba(0, 0, 0, 0.05);
+}
+
+.paginaRolada {
+  background: rgba(255, 255, 255, 1);
+}
+
+#primeiro-parallax {
+  padding: -200px;
+}
+
+#segundo-parallax {
+  background: #4E516E;
+  height: 200px;
+}
+
+#texto-segundo-parallax {
+  color: #fff;
+  font-size: 32px;
+}
+
+#terceiro-parallax .card-about {
+  background: #CCC;
+  color: #000;
+}
+
+#terceiro-parallax .card-about h2 {
+  font-size: 32px;
+}
+
+#terceiro-parallax .card-about p {
+  font-size: 24px;
+}
+
+.page-footer {
+  background: #4E516E !important;
+}
+
+.page-footer h5, .page-footer p {
+  color: white;
+}
+
+#img-carrinho {
+  height: 620px;
+}
+
+#cab{
+	color: black;
+}
+
+#logomerkado{
+	font-size: xx-large;
+	font-family: "verdana";
+}
+
+@media screen and (max-width: 499px) {
+  #modalLogin{ width: 50% !important; }
+}
+
+@media screen and (min-width: 500px) and (max-width: 900px) {
+  #modalLogin{ width: 40% !important; }
+}
+
+@media screen and (min-width: 1440px) {
+  #modalLogin{ width: 40% !important; }
+}
+#modalatendimento h4{
+	font-size: 24px;
+	text-align:center;
+}
+
+#img-mulher {
+  width: 600px;
+}
+
+#emaill{
+	padding: -30 px !important;
+}
+
+#opcoes-restrito{
+  height:250px !important;
+}
+
+#atualizacad{
+	padding: -50 px !important;
+}
