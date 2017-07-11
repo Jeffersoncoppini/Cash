@@ -20,11 +20,6 @@ class cash:
 		k = 0
 		for i in CASH.quadros:
 			if i.rotulo == endereco:
-				while k < 16:
-					if FILA[k] == endereco:
-						FILA.pop(k)
-						FILA.append(endereco)
-						break
 				return i.celula
 	
 		return "erro"
@@ -41,14 +36,13 @@ class cash:
 			
 		if flag == 0:
 			rot = FILA[0]
-			for i in Cash.quadros:
+			for i in CASH.quadros:
 				if i.rotulo == rot:
 					valorsub = i.celula
 					mp.atualizaMp(rot, valorsub, MEMP)
 					i.rotulo = endereco
 					i.celula = buscado
 					break
-			
 			FILA.pop(0)
 			FILA.append(endereco)
 				
@@ -56,11 +50,4 @@ class cash:
 		 for i in CASH.quadros:
 			 if i.rotulo == endereco:
 				 i.celula = valor
-				 print(i.celula)
-		 
-				
 		
-		
-		
-				
-			

@@ -25,5 +25,6 @@ class mp:
 		while(i < 256):
 			if i == ender:
 				MEMP.celulas[i] = valor
+			i += 1
 		
 		
