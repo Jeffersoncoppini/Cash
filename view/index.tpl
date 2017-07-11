@@ -33,7 +33,7 @@
 					<form action = 'leitura' method = "post">
 						<div class="row">
 							<div class="input-field col s3">
-								<input class="validate" type="text" name="endereco" id="endereco" required/>
+								<input class="validate" type="text" name="endereco" id="endereco" data-ls-module="charCounter" minlength = "8" maxlength = "8" required/>
 								<label for="endereco">Digite o endereco a ser lido</label>
 							</div>
 						</div>
@@ -52,7 +52,7 @@
 								<label for="valor">Digite o valor a ser escrito</label>
 							</div>
 							<div class="input-field col s3">
-								<input class="validate" type="text" name="endereco" id="endereco" required/>
+								<input class="validate" type="text" name="endereco" id="endereco" data-ls-module="charCounter" minlength = "8" maxlength = "8" required/>
 								<label for="endereco">Digite o endereco do valor a ser escrito</label>
 							</div>
 						</div>
